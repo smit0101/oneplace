@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.accompanist:accompanist-webview:0.24.11-rc@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/feaaf1809e2843a9a24e366d033754bc/transformed/accompanist-webview-0.24.11-rc/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aaefbea87eb82579e256bd7c9c76632e/transformed/accompanist-webview-0.24.11-rc/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7afdb78580ee8bb09ad43234e3afab79/transformed/accompanist-webview-0.24.11-rc/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7afdb78580ee8bb09ad43234e3afab79/transformed/accompanist-webview-0.24.11-rc/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7afdb78580ee8bb09ad43234e3afab79/transformed/accompanist-webview-0.24.11-rc/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-webview/0.24.11-rc/a6a5ee5c5a7b7724166eddc0d1b5e9b67673b54e/accompanist-webview-0.24.11-rc-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-webview/0.24.11-rc/7cf665c671242e520a528cea2c4e4f6cc8738ee2/accompanist-webview-0.24.11-rc-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
