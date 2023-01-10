@@ -20,7 +20,7 @@ class WebSiteViewModel: ViewModel(){
 
     fun load()= runBlocking {
         async {
-            val result:MutableList<WebSite> = client.get("https://oneplaceupdated-pgokju5beq-el.a.run.app/websites") {
+            val result:MutableList<WebSite> = client.get("https://oneplaceupdated-wbgk7ciqiq-uc.a.run.app/websites") {
 
             }.body()
             webSites.addAll(result)
@@ -29,7 +29,7 @@ class WebSiteViewModel: ViewModel(){
     fun addWebSite(webSite:WebSite) {
         runBlocking {
             async {
-                val result:WebSite = client.post("https://oneplaceupdated-pgokju5beq-el.a.run.app/add/websites") {
+                val result:WebSite = client.post("https://oneplaceupdated-wbgk7ciqiq-uc.a.run.app/add/websites") {
                     contentType(ContentType.Application.Json)
                     setBody(webSite)
                 }.body()
@@ -41,7 +41,7 @@ class WebSiteViewModel: ViewModel(){
         runBlocking {
             async {
                 val result:WebSite  =
-                    client.delete("https://oneplaceupdated-pgokju5beq-el.a.run.app/remove/website/title?") {
+                    client.delete("https://oneplaceupdated-wbgk7ciqiq-uc.a.run.app/remove/website/title?") {
                         parameter(key = "title", value = title)
                     }.body()
 

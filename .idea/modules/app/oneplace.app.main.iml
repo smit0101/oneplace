@@ -14,7 +14,6 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5153dbeeb913b688245d71ebe5fea925/transformed/accompanist-systemuicontroller-0.17.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/cf5fcd2e71b3a0dd8035a49d3d61a6b5/transformed/navigation-compose-2.4.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f3a1d4d72cc45add954e7963753bd95a/transformed/activity-compose-1.5.0-rc01-api.jar</arg>
@@ -108,6 +107,7 @@
             <stringArg name="languageVersion" arg="1.5" />
           </stringArguments>
           <arrayArguments>
+            <arrayArg name="friendPaths" />
             <arrayArg name="pluginClasspaths">
               <args>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.5.31/a06ef07ca3822b0d9c11c69296cd27765f4ed5bb/kotlin-gradle-plugin-api-1.5.31.jar</arg>
